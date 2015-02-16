@@ -34,7 +34,7 @@
             android:text="@string/img_btn1"
             android:layout_weight="3"
             android:layout_gravity="center_horizontal"
-            android:onClick="displayImage" />
+            android:onClick="cat_btn" />
         <Button
             style="@style/button"
             android:background="@drawable/mybutton"
@@ -42,7 +42,7 @@
             android:text="@string/img_btn2"
             android:layout_weight="3"
             android:layout_gravity="center_horizontal"
-            android:onClick="displayImage" />
+            android:onClick="tower_btn" />
         <Button
             style="@style/button"
             android:background="@drawable/mybutton"
@@ -50,7 +50,7 @@
             android:text="@string/img_btn3"
             android:layout_weight="3"
             android:layout_gravity="center_horizontal"
-            android:onClick="displayImage" />
+            android:onClick="comp_btn" />
         <Button
             style="@style/button"
             android:background="@drawable/mybutton"
@@ -58,7 +58,7 @@
             android:text="@string/img_btn4"
             android:layout_weight="3"
             android:layout_gravity="center_horizontal"
-            android:onClick="displayImage" />
+            android:onClick="science_btn" />
         <Button
             style="@style/button"
             android:background="@drawable/mybutton"
@@ -66,7 +66,7 @@
             android:text="@string/img_btn5"
             android:layout_weight="3"
             android:layout_gravity="center_horizontal"
-            android:onClick="displayImage" />
+            android:onClick="cs_btn" />
     </LinearLayout>
 
 </RelativeLayout>

@@ -51,9 +51,10 @@
         android:background="@drawable/mybutton"
         android:layout_width="wrap_content"
         android:text="@string/go_button"
-        android:id="@+id/go_button"
+        android:id="@+id/go_button1"
         android:layout_below="@+id/getSingleCharText"
         android:layout_centerHorizontal="true"
-        android:layout_margin="75dp"/>
+        android:layout_margin="75dp"
+        android:onClick="go" />
 
 </RelativeLayout>

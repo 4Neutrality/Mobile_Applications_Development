@@ -4,6 +4,13 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
+/**
+ * This is the SplashScreen activity, and it will display for 5 seconds before navigating to the
+ * MainMenu activity.
+ *
+ * @author Kevin J James
+ * @version 12.12.15
+ */
 
 public class SplashScreen extends Activity {
     final int PAUSE = 5000;

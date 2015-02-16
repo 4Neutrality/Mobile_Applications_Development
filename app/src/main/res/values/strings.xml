@@ -28,13 +28,15 @@
     <string name="img_btn2">Tower</string>
     <string name="img_btn3">Computer</string>
     <string name="img_btn4">Science</string>
-    <string name="img_btn5">2015</string>
+    <string name="img_btn5">2013</string>
 <!--================================= Display Single ============================================-->
     <string name="title_activity_display_single">DisplaySingle</string>
 <!--================================= Display Two ===============================================-->
     <string name="title_activity_display_two">DisplayTwo</string>
 <!--================================= Information ===============================================-->
-    <string name="title_activity_info">About Screen</string>
+    <string name="title_activity_info">About Developer</string>
+    <string name="my_name">Kevin J. James</string>
+    <string name="my_email">kjjames1@catamount.wcu.edu</string>
 <!--===================================== Extras ================================================-->
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>

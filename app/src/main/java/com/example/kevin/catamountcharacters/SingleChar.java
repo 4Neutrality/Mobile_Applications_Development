@@ -1,16 +1,24 @@
 package com.example.kevin.catamountcharacters;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
+import java.util.regex.Pattern;
 
-public class SingleChar extends ActionBarActivity {
+/**
+ * This is the SingleChar activity, which is an interface that accepts a single alpha numeric
+ * character and passes the value to the DisplaySingle activity.
+ *
+ * @author Kevin J James
+ * @version 12.12.15
+ */
+
+public class SingleChar extends Activity {
     EditText charOne;
-    Button go;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,11 +26,34 @@ public class SingleChar extends ActionBarActivity {
         setContentView(R.layout.activity_2_single_char);
 
         charOne = (EditText)findViewById(R.id.getSingleCharText);
-        go = (Button)findViewById(R.id.go_button);
     }
 
+    /**
+     * This is the onClick method for the go button.
+     *
+     * @param view passed in view
+     */
     public void go (View view) {
-        Intent i = new Intent(SingleChar.this, DisplaySingle.class);
-        startActivity(i);
+        String c = charOne.getText().toString();
+        int len = c.length();
+        // Use regex to validate input
+        Pattern p = Pattern.compile("[^a-zA-Z0-9]");
+        boolean isNotAlphaNumeric = p.matcher(c).find();
+
+        //Check for valid input
+        if (isNotAlphaNumeric) {
+            Toast.makeText(getApplicationContext(), "Character is not alpha numeric!",
+                    Toast.LENGTH_SHORT).show();
+        } else if (len > 1) {
+            Toast.makeText(getApplicationContext(), "Please enter exactly one character!",
+                    Toast.LENGTH_SHORT).show();
+        } else {
+                // Pass in 'space' if nothing is entered
+                if (len == 0)
+                    c = " ";
+                Intent i = new Intent(SingleChar.this, DisplaySingle.class);
+                i.putExtra("singleChar", c);
+                startActivity(i);
+        }
     }
 }

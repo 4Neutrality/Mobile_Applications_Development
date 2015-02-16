@@ -5,6 +5,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+/**
+ * This is the MainMenu activity, which will serve as the home screen where you can navigate
+ * to the other activities.
+ *
+ * @author Kevin J James
+ * @version 12.12.15
+ */
+
 public class MainMenu extends Activity {
 
     @Override

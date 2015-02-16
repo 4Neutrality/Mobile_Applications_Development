@@ -53,8 +53,9 @@
         android:text="@string/go_button"
         android:id="@+id/go_button"
         android:layout_margin="70dp"
-        android:layout_below="@+id/getCharOneText"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/getCharTwoText"
+        android:layout_centerHorizontal="true"
+        android:onClick="go" />
 
     <TextView
         android:text="@string/type_two_2"
