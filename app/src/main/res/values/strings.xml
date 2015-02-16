@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--================================= Splash Screen =============================================-->
+    <string name="app_name">Catamount Characters</string>
+<!--================================= Main Menu =================================================-->
+    <string name="main_menu">Main Menu</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="b1_text">1 Letter</string>
+    <string name="b2_text">2 Letters</string>
+    <string name="b3_text">Image</string>
+    <string name="b4_text">Info</string>
+<!--================================= Single Character ==========================================-->
+    <string name="title_activity_single_char">SingleChar</string>
+    <string name="choose_one">Choose one character</string>
+    <string name="enter_one">Enter one alpha numeric character.</string>
+    <string name="type_one">Type character</string>
+    <string name="go_button">Go > </string>
+<!--================================= Two Characters ============================================-->
+    <string name="title_activity_two_char">TwoChar</string>
+    <string name="choose_two">Choose two characters</string>
+    <string name="enter_two">Enter two alpha numeric characters.</string>
+    <string name="type_two_1">Type character 1</string>
+    <string name="type_two_2">Type character 2</string>
+<!--==================================== Image ==================================================-->
+    <string name="title_activity_image">Image</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="img_btn1">Catamount</string>
+    <string name="img_btn2">Tower</string>
+    <string name="img_btn3">Computer</string>
+    <string name="img_btn4">Science</string>
+    <string name="img_btn5">2015</string>
+<!--================================= Display Single ============================================-->
+    <string name="title_activity_display_single">DisplaySingle</string>
+<!--================================= Display Two ===============================================-->
+    <string name="title_activity_display_two">DisplayTwo</string>
+<!--================================= Information ===============================================-->
+    <string name="title_activity_info">About Screen</string>
+<!--===================================== Extras ================================================-->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
